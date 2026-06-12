@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Mojangles";
+    src: url("mojangles.ttf") format("truetype");
+}
+
+body {
+    font-family: Comic Sans MS;
+}
+
+    /* Background */
+    background-image: url("minecraft stone background for website.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 300px;
+}
+
+.welcome {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 32px;
+    max-width: 500px;
+    text-align: right;
+}
+
+ul {
+    margin-top: 350px;
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 40px;
+}
